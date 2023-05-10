@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .headerHover{
+        @apply px-2 h-[80%] flex  items-center border border-transparent hover:border-white cursor-pointer duration-100
+    }
+    .dealsintoinputcss{
+        @apply w-14 h-full bg-gray-200 hover:bg-gray-300 border-2 cursor-pointer duration-300 text-sm text-amazon_blue font-titleFont flex items-center justify-center rounded-tl-md rounded-bl-md 
+    }
+    .searchiconlikeamazon{
+        @apply w-12 h-full flex items-center  justify-center bg-amazon_yellow hover:bg-[#f3a847] duration-300 text-amazon_blue cursor-pointer rounded-tr-md rounded-br-md
+    }
+    .footerLink{
+        @apply text-sm font-titleFont tracking-wide  hover:text-gray-100 cursor-pointer hover:underline duration-150
+    }
+    .productli{
+        @apply  text-gray-600 hover:text-black text-sm font-medium border-b-[1px] border-b-gray-400  hover:border-b-gray-700 flex items-center justify-end gap-2 hover:cursor-pointer duration-300 w-full ;
+    }
+   }
